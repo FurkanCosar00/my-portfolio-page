@@ -95,6 +95,10 @@ body {
 
 
 /* PAGE BANNER */
+.developer-title {
+    display: none;
+}
+
 .page-banner {
     padding: 64px 0px 0px 0px;
     width: 390px;
@@ -551,8 +555,8 @@ body {
 
 .works a {
     position: absolute;
-    top: 15px;
-    right: 60px;
+    top: 25px;
+    right: 50px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -608,7 +612,7 @@ body {
     line-height: 18.38px;
     text-align: center;
     text-decoration: underline;
-    font-family: "Ubuntu", sans-serif; 
+    font-family: "Ubuntu", sans-serif;
 }
 
 @media( width >= 768px) {
@@ -616,6 +620,28 @@ body {
     .header {
         width: 768px;
         padding: 24px 32px;
+        align-items: center;
+    }
+
+    .header h3 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .header h3 span {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .menu-sections li a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+
     }
 
     .socials {
@@ -665,6 +691,10 @@ body {
     .lets-talk h1 {
         width: 624px;
         margin-left: 24px;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
     }
 
 
@@ -683,6 +713,26 @@ body {
 
     .about-me-box {
         width: 620px;
+    }
+
+    .about-me-box h2 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+
+    .about-me-box p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    /* SKİLLS */
+    .skill-text {
+        width: 680px;
     }
 
     .skills-boxes {
@@ -714,7 +764,12 @@ body {
     .ball img {
         width: 144px;
     }
-   
+
+    /* WORKS */
+    .works p {
+        width: 640px;
+    }
+
     .works-link {
         width: 480px;
     }
@@ -728,8 +783,8 @@ body {
         font-weight: 400;
         line-height: 32px;
         text-align: left;
-        top: 20px;
-        right: 80px;
+        top: 30px;
+        right: 70px;
     }
 
     .footer {
@@ -739,4 +794,121 @@ body {
     }
 
 
+}
+
+@media (width >= 1280px) {
+    /* HEADER */
+    .header {
+        width: 960px;
+        padding: 69px 32px;
+    }
+
+    .header h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
+    }
+
+    .menu-sections li a{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .header h3 span {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: left;
+    }
+
+    /* PAGE BANNER */
+    .page-banner {
+        width: 960px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .title h1 {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 72px;
+        text-align: left;
+    }
+
+    .cv-card {
+        margin: 0px 320px;
+        margin-bottom: 64px;
+    }
+
+    .quick-information {
+        margin: 0px;
+    }
+
+    .lets-talk {
+        width: auto;
+        margin: 0px;
+    }
+
+    .lets-talk-box {
+        margin: 0px;
+    }
+
+    .lets-talk h1 {
+        display: none;
+    }
+
+    .developer-title {
+        color: #98FAEC;
+        width: 538px;
+        margin: 0 auto;
+        display: flex;
+        font-size: 117px;
+        font-weight: 400;
+        line-height: 134px;
+        text-align: left;
+        margin-bottom: 64px;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    /* ABOUT ME */
+    .about-me-box {
+        width: 880px;
+    }
+
+    .about-me-box p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .frontend-balls {
+        width: 980px;
+        height: 210px;
+    }
+
+
+
+
+    .footer {
+        width: 1024px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 36px;
+        justify-content: center;
+    }
+
+    .footer ul {
+        padding: 0px;
+        margin: 0px 432px;
+        margin-top: 24px;
+    }
+
+    .footer p {
+        margin: 0px;
+    }
 }
