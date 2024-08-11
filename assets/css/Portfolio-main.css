@@ -92,10 +92,6 @@ body {
     display: none;
 }
 
-.menu-sections a {
-    color: #FFFFFF;
-}
-
 .highlight {
   display: inline-block;
   color: #FFFFFF;
@@ -124,7 +120,7 @@ body {
 }
 
  .highlight:hover::after {
-  height: 105%;
+  height: 120%;
   width: 105%;
 }
 
@@ -352,21 +348,13 @@ body {
   --hover:  #12F7D6;
 }
 
-button {
+.cv-button {
   color: var(--color);
   transition: 0.55s;
 }
 
-button:hover, button:focus {
+.cv-button:hover, .cv-button:focus {
   border-color: var(--hover);
-}
-
-button {
-  background: none;
-  border: 2px solid;
-  font: inherit;
-  line-height: 1;
-  padding: 1em 2em;
 }
 
 /* ABOUT ME */
@@ -874,8 +862,6 @@ button {
         margin: 0 auto;
         margin-bottom: 32px;
     }
-
-
 }
 
 @media (width >= 1280px) {
@@ -940,7 +926,9 @@ button {
     }
 
     .lets-talk h1 {
-        display: none;
+        width: 250px;
+        margin: 0;
+        margin-bottom: 32px;
     }
 
     .developer-title {
