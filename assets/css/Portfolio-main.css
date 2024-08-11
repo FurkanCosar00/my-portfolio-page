@@ -214,8 +214,6 @@ body {
 .cv-button {
     color: #292F36;
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -224,6 +222,12 @@ body {
     border: none;
     border-radius: 32px;
     font-family: "Ubuntu", sans-serif;
+}
+
+.cv-button a {
+    display: flex;
+    color: #292F36;
+    justify-content: space-between;
 }
 
 .quick-information {
@@ -362,7 +366,6 @@ button {
   border: 2px solid;
   font: inherit;
   line-height: 1;
-  margin: 0.5em;
   padding: 1em 2em;
 }
 
