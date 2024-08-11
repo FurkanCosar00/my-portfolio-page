@@ -1049,6 +1049,8 @@ button {
   
 .project-img {
     width: 298px;
+    height: 198px;
+    object-fit: cover;
     left: 0;
 }
   
@@ -1064,6 +1066,7 @@ button {
     color: white;
     z-index: 1;
     transition: top 0.5s ease;
+    font-family: "Ubuntu", sans-serif; 
 }
   
 .project-item:hover .card-title {
@@ -1087,6 +1090,8 @@ button {
     color: white;
     border: solid 2px white;
     z-index: 1;
+    border-radius: 24px 0px 24px 0px;
+    font-family: "IBM Plex Mono", monospace;
 }
   
 .project-item:hover .button {
