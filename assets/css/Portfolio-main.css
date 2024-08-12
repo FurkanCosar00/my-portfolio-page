@@ -1209,6 +1209,15 @@ label {
         height: 210px;
     }
 
+    .contact-us {
+        width: 960px;
+    }
+
+    .contact-us p {
+        width: 960px;
+    }
+
+    /* FOOTER */
     .footer {
         width: 1024px;
         flex-direction: row;
@@ -1352,4 +1361,16 @@ label {
         width: 960px;
         margin: 0 auto;
     }
+}
+
+/* SAYFA AKIŞI */
+.box {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.box.visible {
+    opacity: 1;
+    transform: scale(1);
 }
