@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/Portfolio-main.css">
+    <script src="./assets/js/portfolio.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -30,9 +31,20 @@
                 <li><a target="_blank" href="http://discordapp.com/users/_luchhass"><img src="./assets/img/icons/header-discord-logo.png" alt=""></a></li>
                 <li><a target="_blank" href="https://github.com/FurkanCosar00"><img src="./assets/img/icons/header-github-logo.png" alt=""></a></li>
             </ul>
+
+            <div class="dropdown">
+                <button class="dropdown-button"><img src="./assets/img/icons/dropdown-menu.png" alt=""></button>
+                <div class="dropdown-content">
+                    <a href="#pageBanner">Developer</a>
+                    <a href="#aboutMe">About Me</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#works">Works</a>
+                    <a href="#footer">Footer</a>
+                </div>
+            </div>
         </div>
 
-        <div class="page-banner">
+        <div id="pageBanner" class="page-banner">
             <h1 class="developer-title">developer</h1>
             <div class="cv-card">
                 <img class="profile-picture" src="./assets/img/profile-photo.png" alt="">
@@ -91,7 +103,7 @@
             </div>
         </div>
 
-        <div class="about-me">
+        <div id="aboutMe" class="about-me">
             <h1>About Me</h1>
 
             <div class="about-me-box">
@@ -124,7 +136,7 @@
             </div>
         </div>
 
-        <div class="skills">
+        <div id="skills" class="skills">
             <h1>Skills</h1>
             <p class="skill-text">I am striving to never stop learning and improving</p>
 
@@ -165,7 +177,7 @@
             </div>
         </div>
 
-        <div class="works">
+        <div id="works" class="works">
             <h1>Works</h1>
             <p>I had the pleasure of working with these awesome projects</p>
 
@@ -175,7 +187,7 @@
             </div>
         </div>
 
-        <div class="footer">
+        <div id="footer" class="footer">
             <ul>
                 <li><a target="_blank" href="https://www.instagram.com/luchhass/"><img src="./assets/img/icons/Instagram-logo.png" alt=""></a></li>
                 <li><a target="_blank" href="http://discordapp.com/users/_luchhass"><img src="./assets/img/icons/Discord-logo.png" alt=""></a></li>
